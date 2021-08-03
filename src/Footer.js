@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Footer.css"
-import { Container, Typography } from '@material-ui/core';
+import {  Typography } from '@material-ui/core';
 
 const Footer = () => {
 
     return (
-        <Container className="root">
+        <div className='rooter'>
 
             <div className="body">
                 <Typography className="header">Institute</Typography>
@@ -65,7 +65,7 @@ const Footer = () => {
                 </Typography>
             </div>
 
-        </Container>
+        </div>
     )
 }
 
